@@ -1,0 +1,110 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+section{
+   padding: 75px 0;
+}
+
+/*============ Header section Start ==============*/
+
+#header{
+   background-image: url(./images/header-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   height: 100vh;
+   color: #fff;
+   padding: 10px 0;
+}
+
+#header .content{
+   width: 100%;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+}
+
+#header .content h4{
+   font-style: italic;
+   font-weight: 400;
+}
+
+#header .content h1{
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+#header .content button{
+   color: #fff;
+}
+
+/*============ Header section End ==============*/
+
+/*============ Services section Start ==============*/
+
+#services .fa-solid{
+   background: #ffeb3b;
+   font-size: 40px;
+   color: #784242;
+   padding: 18px;
+   border-radius: 50%;
+   width: 80px;
+   height: 80px;
+}
+
+#services h2{
+   font-size: 35px;
+   font-weight: 600;
+}
+
+#services p{
+   font-style: italic;
+   font-size: 20px;
+   color: #131342bd;
+}
+
+#services .content{
+   padding: 10px 20px;
+}
+
+#services .content h5{
+   padding: 15px 0;
+}
+
+#services .content p{
+   color: #261a1acf;
+   letter-spacing: 0.8px;
+}
+
+/*============ Services section End ==============*/
+/*============ Portfolio section Start ==============*/
+
+#portfolio{
+   background-color: rgba(196, 183, 183, 0.178);
+   text-align: center;
+}
+
+#portfolio h3{
+   font-weight: 600;
+}
+
+#portfolio h6{
+   font-style: italic;
+   color: #08252ebd;
+}
+/*============ Portfolio section End ==============*/
+
+
+
+
+
+
+/*============ Portfolio section Start ==============*/
+
+/*============ Portfolio section End ==============*/
